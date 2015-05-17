@@ -16,12 +16,11 @@ New features in this stable release 2.4 are:
 * certificate information
 * more HTTP header infos (cookies+security headers)
 * protocol check via bash sockets for SSLv2+v3
-* cipher check via bash sockets: for now only with development option -q
-* debug file handling: done so far
-* BEAST
-* FREAK
-* Secure Client-Initiated Renegotiation
-* cosmetic code cleanups
+* debug handling significantly improved (verbosity/each function leaves files in $TEMPDIR) 
+* BEAST check
+* FREAK check
+* Secure Client-Initiated Renegotiation check
+* lots of cosmetic and maintainability code cleanups
 * bugfixing
 
 Contributions, feedback, also bug reports are welcome. For contributions please note: One patch per feature -- bug fix/improvement. Please file bug reports @ https://github.com/drwetter/testssl.sh/issues .
